@@ -12,7 +12,7 @@ GET /cryptocurrencies/page - Accepts a page number and page size as a RequestPar
 
 GET /cryptocurrencies/csv - Doesn't accept anything. When you go to this breakpoint, a small report on the current records in the database is saved in csv, which will be created in the resources folder
 
-##How to start the application
+## How to start the application
 1.Fork this project on GitHub
 
 2.In the application.properties file, you must enter data about your database. In the course of writing this test, I used a database in the cloud, so there is no data there.
